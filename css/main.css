@@ -67,6 +67,30 @@ nav {
     text-align: center;
 }
 
+.introh1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.introh1i {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .introh1 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .introh1i {
+    display: none;
+  }
+}
+
 .second {
     top: 0;
     justify-content: space-around;
