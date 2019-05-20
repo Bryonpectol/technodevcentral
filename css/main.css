@@ -116,6 +116,11 @@ nav {
     padding: 15px;
   }
 
+  .p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   .third {
     top: 0;
     justify-content: space-around;
