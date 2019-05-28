@@ -87,6 +87,10 @@
     font-weight: normal;
     list-style-type: circle;
   }
+
+  .ulli {
+    list-style-type: circle;
+  }
   
   @media only screen and (max-width: 600px) {
     .introh1 {
