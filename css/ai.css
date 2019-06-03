@@ -8,13 +8,23 @@
     background-color: #6da8bb;
   }
   
-  nav {
+  .navmain {
     display: flex;
     justify-content: center;
     position: fixed;
     width: 100%;
     height: 50px;
     background-color: #FFA500;
+  }
+
+  .navsecond {
+    display: flex;
+    justify-content: center;
+    /* position: fixed; */
+    width: 100%;
+    height: 50px;
+    background-color: #b47500;
+    padding-top: 60px;
   }
   
   .ul {
@@ -53,13 +63,15 @@
   
   .intro {
     top: 0;
-    justify-content: space-around;
+    justify-content: center;
     /* min-height: 55vh; */
-    padding-top: 35vh;
-    line-height: 30vh;
+    /* padding-top: 35vh; */
+    line-height: 55vh;
     width: 100%;
-    height: 110vh;
-    background-color: black;
+    height: 105vh;
+    background-image: url("/images/bgai.jpg");
+    background-repeat: none;
+    text-align: center;
     color: white;
     text-align: center;
   }
@@ -81,6 +93,7 @@
 
   .aip {
     color: white;
+    /* margin-left: 25%; */
   }
   
   .h1 {
@@ -140,7 +153,7 @@
       top: 0;
       justify-content: space-around;
       /* min-height: 55vh; */
-      padding-top: 50vh;
+      padding-top: 30vh;
       /* line-height: 100vh; */
       /* width: 100%; */
       height: 85vh;
