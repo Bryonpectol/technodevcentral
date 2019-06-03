@@ -117,8 +117,16 @@ nav {
   }
 
   .p {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .newtechimg {
+    width: 250px;
+    float: right;
+    margin-right: 60px;
+    box-shadow: grey 7px 7px 5px;
+    border-radius: 100px;
   }
 
   .third {
