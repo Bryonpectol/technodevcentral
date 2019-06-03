@@ -54,13 +54,33 @@
   .intro {
     top: 0;
     justify-content: space-around;
-    min-height: 55vh;
-    /* padding-top: 45vh; */
-    line-height: 100vh;
+    /* min-height: 55vh; */
+    padding-top: 35vh;
+    line-height: 30vh;
     width: 100%;
-    height: 100vh;
-    background-color: #6da8bb;
+    height: 110vh;
+    background-color: black;
+    color: white;
     text-align: center;
+  }
+
+  .ailink {
+    text-decoration: none;
+    color: white;
+    border: grey 2px solid;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: grey 5px 5px 8px;
+  }
+
+  .ailink:hover {
+    box-shadow: none;
+    border: white 2px solid;
+    color: #6da8bb;
+  }
+
+  .aip {
+    color: white;
   }
   
   .h1 {
@@ -130,5 +150,10 @@
 
     .result {
       
+    }
+
+    footer {
+      background-color: #FFA500;
+      padding: 15px;
     }
   
