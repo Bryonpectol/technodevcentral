@@ -140,3 +140,8 @@ nav {
     background-color: #6da8bb;
     /* color: #fff; */
   }
+
+  footer {
+    background-color: #FFA500;
+    padding: 15px;
+  }
