@@ -294,7 +294,7 @@
         }
     
         footer {
-          distplay: flex;
+          display: flex;
           flex-wrap: wrap;
           background-color: #FFA500;
           padding: 15px;
