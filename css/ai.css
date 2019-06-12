@@ -195,7 +195,7 @@
     display: flex;
     justify-content: center;
     position: fixed;
-    width: 100%;
+    width: 90%;
     height: 50px;
     background-color: #FFA500;
   }
@@ -204,7 +204,7 @@
     display: flex;
     justify-content: center;
     /* position: fixed; */
-    width: 100%;
+    width: 90%;
     height: 50px;
     background-color: grey;
     padding-top: 60px;
