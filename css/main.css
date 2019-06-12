@@ -85,7 +85,7 @@ nav {
 
 .list {
   font-weight: normal;
-  list-style-type: circle;
+  list-style-type: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -241,7 +241,7 @@ nav {
     
     .list {
       font-weight: normal;
-      list-style-type: circle;
+      list-style-type: none;
     }
     
     @media only screen and (max-width: 600px) {
@@ -307,5 +307,12 @@ nav {
   @media only screen and (min-width: 601px) {
     footer {
       margin-top: 0px;;
+    }
+
+    .third {
+      /* margin: 0px;
+      padding: 0px; */
+
+      height: 80vh;
     }
   }
