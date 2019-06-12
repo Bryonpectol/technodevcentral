@@ -303,3 +303,9 @@ nav {
         margin-top: 250px;
       }
   }
+
+  @media only screen and (min-width: 601px) {
+    footer {
+      margin-top: 0px;;
+    }
+  }
