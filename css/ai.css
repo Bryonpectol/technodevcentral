@@ -46,6 +46,22 @@
     border-radius: 50px;
     font-size: 20px;
     box-shadow: 0px 5px 0px grey;
+    font-family: 'B612 Mono', monospace;
+  }
+
+  .lisecond {
+    list-style-type: none;
+    margin-top: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #ddcbba;
+    border: #ddcbba solid 4px;
+    border-radius: 50px;
+    font-size: 20px;
+    box-shadow: 0px 5px 0px midnightblue;
+    font-family: 'B612 Mono', monospace;
   }
   
   .nava {
@@ -61,6 +77,15 @@
     box-shadow: none;
   }
   
+  .lisecond:hover {
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #6da8bb;
+    border: #6da8bb solid 4px;
+    box-shadow: none;
+  }
+
   .intro {
     top: 0;
     justify-content: center;
